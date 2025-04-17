@@ -23,6 +23,22 @@
         margin: 20px auto;
       }
     }
+
+
+
+.sirf-window {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin: 20px auto;
+    }
+
+    /* Hide image on small (mobile) screens */
+    @media only screen and (max-width: 600px) and (orientation: portrait) {
+      .sirf-window {
+        display: none;
+      }
+    }
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
